@@ -1,0 +1,13 @@
+Data Cleaning Summary:
+
+Total Sales Verification:
+
+We found discrepancies between the provided Total Sales and the computed Total Sales values for 9,554 rows. The differences are very minor and likely due to rounding errors when calculating the Total Sales column. For accuracy, we should use the newly computed Total Sales column for further analysis.
+Outliers:
+
+For the Quantity column, values less than 2 and more than 100 can be considered outliers.
+For the Price column, values less than $58.45 and more than $989.47 can be considered outliers.
+For the Total Sales column, values less than $556.43 and more than $88,196.52 can be considered outliers.
+Feature Engineering Summary:
+
+We've successfully extracted the Year, Month, and Day from the Date column. These new columns will be helpful for time-based analysis.
